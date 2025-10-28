@@ -3,12 +3,15 @@ h1, h2{
 }
 
 .informacionGeneral{
-    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 #informacion{
-    text-align: left;
+    width: 60%;
     background-color: gray;
+    border: 2px solid white;
     opacity: 0.9;
 }
 

@@ -1,11 +1,17 @@
+html, body {
+    margin: 0;
+    height: 100%; 
+}
+
 body{
     background-image: url("../imagenes/Logo\ y\ inicio/photo-1716307043003-dbe6a5cc496e.jpeg");
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -67,6 +73,10 @@ nav{
 img{
     width: 100px;
     height: 100px;
+}
+
+main {
+    flex: 1;                   /* hace que el main ocupe el espacio restante */
 }
 
 footer{

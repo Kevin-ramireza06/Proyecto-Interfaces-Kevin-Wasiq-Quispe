@@ -1,0 +1,14 @@
+h1, h2{
+    text-decoration: underline;
+}
+
+.informacionGeneral{
+    text-align: center;
+}
+
+#informacion{
+    text-align: left;
+    background-color: gray;
+    opacity: 0.9;
+}
+

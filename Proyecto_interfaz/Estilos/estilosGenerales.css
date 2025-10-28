@@ -1,5 +1,6 @@
 body{
-    background-image: url("imagenes/Logo\ y\ inicio/photo-1716307043003-dbe6a5cc496e.jpeg");
+    background-image: url("../imagenes/Logo\ y\ inicio/photo-1716307043003-dbe6a5cc496e.jpeg");
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,18 +29,18 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 100px;
+    gap: 80px;
 }
 
 .nav-item {
     display: flex;              
     align-items: center;        
-    gap: 10px;                  
+    gap: 10px;               
+    padding: 0 15px;   
     text-decoration: none;      
     color: white;              
     height: 100%; 
     font-size: 18px;
-    transition: transform 0.2s, color 0.2s;
 }
 
 #redesSociales{
@@ -50,16 +51,29 @@ nav{
     padding: 0 20px;
 }
 
-li{
-    list-style: none;
+.activado{
+    background-color: rgb(116, 226, 226);
 }
 
-a{
-    text-decoration: none;
-    color: white;
+.nav-item:hover {
+    background-color: rgb(116, 226, 226);
+    transition: 200ms;
+}
+
+#contenedorLogo{
+    padding: 20px;
 }
 
 img{
     width: 100px;
     height: 100px;
+}
+
+footer{
+    background-color: rgb(73, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
 }

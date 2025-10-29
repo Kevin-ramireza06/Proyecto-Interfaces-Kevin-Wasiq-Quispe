@@ -70,3 +70,10 @@ h1{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+@media (max-width: 1000px) {
+
+  .informacionGeneralHistoria {
+    grid-template-columns: 1fr;
+  }
+}

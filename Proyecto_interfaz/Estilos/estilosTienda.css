@@ -11,6 +11,7 @@ h1,h2{
     color: black;
     width: fit-content;
     padding: 10px 40px;
+    opacity: 70%;
 }
 
 .bonos{
@@ -35,6 +36,7 @@ h1,h2{
     width: 650px;
     height: 400px;
     transition: 250ms;
+    cursor: pointer;
 }
 
 .membresias img:hover{
@@ -86,6 +88,7 @@ h1,h2{
     margin: 10px;
     border: 1px solid black;
     transition: 250ms;
+    cursor: pointer;
 }
 
 .producto img:hover{

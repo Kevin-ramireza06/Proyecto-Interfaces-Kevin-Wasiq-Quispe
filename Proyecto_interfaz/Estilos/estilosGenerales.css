@@ -3,6 +3,11 @@ html, body {
     height: 100%; 
 }
 
+/*
+    Esta es la pestaña de estilos generales, en donde se guardan los estilos que utilizan en comun todas los html
+    de nuestro proyecto
+*/
+
 body{
     background-image: url("../imagenes/Logo\ y\ inicio/photo-1716307043003-dbe6a5cc496e.jpeg");
     font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +19,7 @@ body{
     flex-direction: column;
 }
 
+/*Cabecera con flexBox*/
 header{
     background-color: rgb(52, 52, 52);
     color: white;
@@ -30,6 +36,7 @@ header{
     padding: 0 10px;
 }
 
+/*Barra de navegacion*/
 nav{
     height: 100%;
     display: flex;
@@ -48,6 +55,8 @@ nav{
     height: 100%; 
     font-size: 18px;
 }
+
+/*Apartado de redes sociales*/
 
 #redesSociales{
     height: 100%;
@@ -79,6 +88,8 @@ main {
     flex: 1;
 }
 
+/*Pie de pagina pegado a la parte inferior*/
+
 footer{
     background-color: rgb(73, 71, 71);
     color: white;
@@ -88,6 +99,7 @@ footer{
     width: 100%;
 }
 
+/*Media query para solucionar y organizar los elementos en cierta resolucion*/
 
 @media(max-width: 1000px){
     nav{

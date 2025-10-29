@@ -1,8 +1,12 @@
+/*Contenedor principal centrando todo*/
+
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/*Estilos de los titulos*/
 
 h1,h2{
     border: 1px solid gray;
@@ -13,6 +17,8 @@ h1,h2{
     padding: 10px 40px;
     opacity: 70%;
 }
+
+/*Contenedor de las tarjetas de bono con flexBox*/
 
 .bonos{
     width: 80%;
@@ -31,6 +37,8 @@ h1,h2{
     justify-content: center;
     gap: 100px;
 }
+
+/*Transiciones,hovers y decoraciones de las membresias */
 
 .membresias img{
     width: 650px;
@@ -56,6 +64,8 @@ h1,h2{
   box-shadow: 0 4px 8px rgb(172, 5, 172);
 }
 
+/*Apartado de merchandising tambien con flexBox*/
+
 .merchandising{
     margin-top: 30px;
     display: flex;
@@ -80,6 +90,8 @@ h1,h2{
     gap: 20px;
     justify-content: space-between;
 }
+
+/*Hovers y decoraciones de los productos*/
 
 .producto img{
     width: 100%;

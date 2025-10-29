@@ -1,11 +1,4 @@
-.instalaciones {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 40px;
-}
-
+/*Ordenamos en columnas las tarjetas*/
 .informacionGeneralHistoria {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -14,6 +7,8 @@
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
+/* tamaño de las tarjetas */
 .card {
   width: 650px;
   height: 400px;
@@ -21,6 +16,8 @@
   
 }
 
+/* Permite que las tarjetas giren suavemente y que sus caras 
+(front/back) mantengan su perspectiva*/
 .card-inner {
   position: relative;
   width: 100%;
@@ -29,10 +26,12 @@
   transform-style: preserve-3d;
 }
 
+/*Hace el efecto flip de la tarjeta */
 .card:hover .card-inner {
   transform: rotateY(180deg);
 }
 
+/* posicionamiento de las tarjetas */
 .card-front, .card-back {
   position: absolute;
   width: 100%;
@@ -43,19 +42,22 @@
   border-left: none;  
 }
 
-
+/* define el tamaño de las imagenes de la tarjeta*/
 .card-front img,.card-back img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
   display: block;
-  /*box-shadow: 20px 25px 10px;*/
+  
   
 }
+/*  gira 180º la cara trasera*/
 .card-back {
   transform: rotateY(180deg);
 }
+
+/* centra el titulo con un stilo*/
 .Title{
   text-align: center;  
   width: 17%;
@@ -65,11 +67,14 @@
   background: white;
   opacity: 70%;
 }
+
+/* el margen del texto con los bordes de su div */
 h1{
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+/* Responsive: cambia grid a 1 columna en pantallas pequeñas*/
 @media (max-width: 1000px) {
 
   .informacionGeneralHistoria {

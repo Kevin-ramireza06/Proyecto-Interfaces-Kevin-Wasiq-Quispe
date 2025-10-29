@@ -1,8 +1,8 @@
 nav {
     display: flex;
-    justify-content: center; /* Centra horizontalmente el contenido */
-    align-items: center;     /* Centra verticalmente el contenido */
-    height: 80px;            /* Ajusta la altura según tu necesidad */
+    justify-content: center; 
+    align-items: center;     
+    height: 80px;            
     margin-left: 47%;
 }
 

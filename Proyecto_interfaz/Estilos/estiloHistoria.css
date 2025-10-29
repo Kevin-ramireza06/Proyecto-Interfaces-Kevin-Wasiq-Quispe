@@ -6,13 +6,13 @@
   padding: 40px;
 }
 
-.informacionGeneral {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
-    justify-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+.informacionGeneralHistoria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  justify-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .card {
   width: 650px;
@@ -45,13 +45,14 @@
 }
 
 
-
 .card-front img,.card-back img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
   display: block;
+  /*box-shadow: 20px 25px 10px;*/
+  
 }
 .card-back {
   transform: rotateY(180deg);

@@ -1,0 +1,125 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,h2{
+    border: 1px solid gray;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    width: fit-content;
+    padding: 10px 40px;
+}
+
+.bonos{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.membresias{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.membresias img{
+    width: 650px;
+    height: 400px;
+    transition: 250ms;
+}
+
+.membresias img:hover{
+    transform: scale(1.01);
+    transition: 250ms;
+}
+
+[alt="Membresia Basica"]:hover{
+  box-shadow: 0 4px 8px rgba(255, 215, 0, 1);
+}
+
+[alt="Membresia Esmeralda"]:hover{
+  box-shadow: 0 4px 8px rgb(0, 128, 0);
+}
+
+[alt="Membresia Premiun"]:hover{
+  box-shadow: 0 4px 8px rgb(172, 5, 172);
+}
+
+.merchandising{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productos{
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.producto{
+    background-color: rgb(101, 195, 195);
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.producto img{
+    width: 100%;
+    height: 500px;
+    background-color:  rgb(91, 168, 168);
+    margin: 10px;
+    border: 1px solid black;
+    transition: 250ms;
+}
+
+.producto img:hover{
+    transform: scale(1.02);
+    background-color:  cyan;
+    transition: 250ms;
+}
+
+.producto span{
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+span + span {
+    font-weight: bolder;
+}
+
+.metodosPagos{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: gainsboro;
+    border: 2px solid gray;
+    color: black;
+    padding-right: 60px;
+}
+
+.metodoPago{
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+}
+
+.metodosPagos p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}

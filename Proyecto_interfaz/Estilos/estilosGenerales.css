@@ -87,3 +87,25 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+
+@media(max-width: 1000px){
+    nav{
+        gap: 0;
+    }
+
+    .nav-item img, #redesSociales img{
+        height: 30px ;
+        width: 30px ;
+    }
+
+    #redesSociales{
+        flex-wrap: wrap;
+    }
+
+      #inputs {
+        flex-direction: column; /* 🔥 apila los inputs verticalmente */
+        align-items: stretch;   /* que ocupen todo el ancho disponible */
+        gap: 10px;              /* espacio entre inputs */
+    }
+}

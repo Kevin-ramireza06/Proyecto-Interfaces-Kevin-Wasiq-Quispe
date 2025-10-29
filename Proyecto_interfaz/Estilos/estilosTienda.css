@@ -94,7 +94,7 @@ h1,h2{
 /*Hovers y decoraciones de los productos*/
 
 .producto img{
-    width: 100%;
+    width: 96%;
     height: 500px;
     background-color:  rgb(91, 168, 168);
     margin: 10px;

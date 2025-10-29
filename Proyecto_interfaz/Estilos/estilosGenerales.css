@@ -76,7 +76,7 @@ img{
 }
 
 main {
-    flex: 1;                   /* hace que el main ocupe el espacio restante */
+    flex: 1;
 }
 
 footer{

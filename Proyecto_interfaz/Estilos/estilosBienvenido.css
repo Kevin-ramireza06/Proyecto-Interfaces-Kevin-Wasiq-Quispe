@@ -1,3 +1,4 @@
+/*logo centrado en la barra de navegacion*/
 nav {
     display: flex;
     justify-content: center; 
@@ -5,20 +6,24 @@ nav {
     height: 80px;            
     margin-left: 47%;
 }
-
+/*Contenedor centrado con el texto*/
 .BIENVENIDO{
     text-align: center;
     width: 40%;
     margin:auto;
     margin-top: 150px;
 }
+/*Fondo del cuerpo en blanco con la imagen eliminada*/
 body{
     background-image: none;
     background-color: white;
 }
+/*Color de texto*/
 h1,h2{
     color: black;
 }
+
+/*Tamaño del logo en la navegacion*/
 nav .logotipo{
     width: 100%;
     height: 100%;
